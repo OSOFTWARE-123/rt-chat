@@ -8,7 +8,7 @@ import path from "path";
 import { clerkMiddleware } from "@clerk/express";
 
 import { connectDB } from "./lib/db.js";
-import User from "./models/User.js";
+import User from "./models/user.model.js";
 
 const app = express();
 const PORT = process.env.PORT;
